@@ -5,7 +5,7 @@ import { Logout } from "./style"
 import { useAuth } from "../../hooks/auth"
 import {api} from "../../services/api"
 import { useNavigate } from "react-router-dom"
-const avatarPlaceholder = "../../../src/assets/avatarPlaceholder.svg"
+const avatarPlaceholder = "../../assets/avatarPlaceholder.svg"
 
 export function Header(){
     const { signOut, user } = useAuth()
